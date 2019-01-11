@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ofz-Db-ewh" customClass="DJMiddleView">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="wii-gL-Cag">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="LKD-Yf-Urj">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="Y4C-Yl-K3J">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zxy_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Hke-3C-IJs">
+                    <rect key="frame" x="11" y="11" width="43" height="43"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybU-SD-hoC">
+                    <rect key="frame" x="10" y="10" width="45" height="45"/>
+                    <state key="normal" image="tabbar_np_play"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ybU-SD-hoC" secondAttribute="trailing" constant="10" id="07t-5D-n2w"/>
+                <constraint firstAttribute="trailing" secondItem="LKD-Yf-Urj" secondAttribute="trailing" id="0H3-xO-8nr"/>
+                <constraint firstAttribute="bottom" secondItem="ybU-SD-hoC" secondAttribute="bottom" constant="10" id="810-41-ugu"/>
+                <constraint firstAttribute="trailing" secondItem="Y4C-Yl-K3J" secondAttribute="trailing" id="8QE-f4-DdB"/>
+                <constraint firstItem="ybU-SD-hoC" firstAttribute="top" secondItem="Ofz-Db-ewh" secondAttribute="top" constant="10" id="8QT-Gn-PQT"/>
+                <constraint firstAttribute="bottom" secondItem="wii-gL-Cag" secondAttribute="bottom" id="AQD-LL-L0T"/>
+                <constraint firstItem="wii-gL-Cag" firstAttribute="leading" secondItem="Ofz-Db-ewh" secondAttribute="leading" id="BnW-7R-PnJ"/>
+                <constraint firstItem="Hke-3C-IJs" firstAttribute="top" secondItem="Ofz-Db-ewh" secondAttribute="top" constant="11" id="DYO-cv-bgK"/>
+                <constraint firstAttribute="trailing" secondItem="wii-gL-Cag" secondAttribute="trailing" id="Mnz-BF-Eg7"/>
+                <constraint firstItem="ybU-SD-hoC" firstAttribute="leading" secondItem="Ofz-Db-ewh" secondAttribute="leading" constant="10" id="Qld-Ks-cG6"/>
+                <constraint firstItem="LKD-Yf-Urj" firstAttribute="leading" secondItem="Ofz-Db-ewh" secondAttribute="leading" id="RQE-13-GZi"/>
+                <constraint firstItem="Y4C-Yl-K3J" firstAttribute="leading" secondItem="Ofz-Db-ewh" secondAttribute="leading" id="UhY-Id-RzG"/>
+                <constraint firstAttribute="trailing" secondItem="Hke-3C-IJs" secondAttribute="trailing" constant="11" id="Vdi-Gc-ydb"/>
+                <constraint firstItem="LKD-Yf-Urj" firstAttribute="top" secondItem="Ofz-Db-ewh" secondAttribute="top" id="VfE-Kq-wv9"/>
+                <constraint firstItem="Hke-3C-IJs" firstAttribute="leading" secondItem="Ofz-Db-ewh" secondAttribute="leading" constant="11" id="bCt-ur-f3D"/>
+                <constraint firstItem="Y4C-Yl-K3J" firstAttribute="top" secondItem="Ofz-Db-ewh" secondAttribute="top" id="iDk-e0-DaB"/>
+                <constraint firstAttribute="bottom" secondItem="Hke-3C-IJs" secondAttribute="bottom" constant="11" id="ihL-cJ-S8L"/>
+                <constraint firstItem="wii-gL-Cag" firstAttribute="top" secondItem="Ofz-Db-ewh" secondAttribute="top" id="nUo-cR-UHK"/>
+                <constraint firstAttribute="bottom" secondItem="Y4C-Yl-K3J" secondAttribute="bottom" id="pKn-7n-Fbh"/>
+                <constraint firstAttribute="bottom" secondItem="LKD-Yf-Urj" secondAttribute="bottom" id="yM6-rn-Uwh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="qrJ-Oi-5dY"/>
+            <connections>
+                <outlet property="middleImageView" destination="Hke-3C-IJs" id="m3k-VW-fbr"/>
+                <outlet property="playBtn" destination="ybU-SD-hoC" id="k80-B9-otc"/>
+            </connections>
+            <point key="canvasLocation" x="15" y="-171"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="tabbar_np_normal" width="65" height="65"/>
+        <image name="tabbar_np_play" width="50" height="50"/>
+        <image name="tabbar_np_playshadow" width="50" height="50"/>
+        <image name="tabbar_np_shadow" width="75" height="65"/>
+        <image name="zxy_icon" width="48" height="48"/>
+    </resources>
+</document>

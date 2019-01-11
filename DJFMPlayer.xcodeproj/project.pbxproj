@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF054BAE52E3BD9AA5F7A18F /* libPods-DJFMPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A27FA2FD1AF46912D90C52 /* libPods-DJFMPlayerTests.a */; };
+		F08EB18921DC54B10077711B /* DJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB18821DC54B10077711B /* DJNavigationController.m */; };
+		F08EB18C21DC55A30077711B /* DJNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB18B21DC55A30077711B /* DJNavBar.m */; };
+		F08EB18F21DC5AD40077711B /* DJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB18E21DC5AD40077711B /* DJTabBarController.m */; };
+		F08EB19421DC5C100077711B /* CALayer+DJPauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB19321DC5C100077711B /* CALayer+DJPauseAimate.m */; };
+		F08EB19721DC5C290077711B /* UIImage+DJImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB19621DC5C290077711B /* UIImage+DJImage.m */; };
+		F08EB19A21DC5C410077711B /* UIView+DJLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB19921DC5C410077711B /* UIView+DJLayout.m */; };
+		F08EB19D21DC5CE20077711B /* DJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB19C21DC5CE20077711B /* DJTabBar.m */; };
+		F08EB1A121DC5EBD0077711B /* DJMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB1A021DC5EBD0077711B /* DJMiddleView.m */; };
+		F08EB1A321DC5ECD0077711B /* DJMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08EB1A221DC5ECC0077711B /* DJMiddleView.xib */; };
+		F08EB1A621DC87530077711B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB1A521DC87530077711B /* TestViewController.m */; };
+		F08EB1A921DC88630077711B /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB1A821DC88630077711B /* TestVC2.m */; };
+		F08EB1AE21DCB0EE0077711B /* DJFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB1AD21DCB0EE0077711B /* DJFileTool.m */; };
+		F08EB1B421DCB3140077711B /* DJDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB1B321DCB3140077711B /* DJDownloader.m */; };
+		F08EB1B721DDE2480077711B /* DJDownloaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB1B621DDE2480077711B /* DJDownloaderManager.m */; };
+		F08EB1BA21DDE6EF0077711B /* NSString+md5.m in Sources */ = {isa = PBXBuildFile; fileRef = F08EB1B921DDE6EF0077711B /* NSString+md5.m */; };
 		F08F10FC21B911DE00D5753E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F08F10FB21B911DE00D5753E /* AppDelegate.m */; };
 		F08F10FF21B911DE00D5753E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08F10FE21B911DE00D5753E /* ViewController.m */; };
 		F08F110221B911DE00D5753E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08F110021B911DE00D5753E /* Main.storyboard */; };
@@ -15,6 +31,14 @@
 		F08F110A21B911E100D5753E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F08F110921B911E100D5753E /* main.m */; };
 		F08F111421B911E100D5753E /* DJFMPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08F111321B911E100D5753E /* DJFMPlayerTests.m */; };
 		F08F111F21B911E100D5753E /* DJFMPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08F111E21B911E100D5753E /* DJFMPlayerUITests.m */; };
+		F09174BE8DA7DC456CB02D6D /* libPods-DJFMPlayerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4183ED082B251C54D5041F0A /* libPods-DJFMPlayerUITests.a */; };
+		F09EDEB421E5E06C00749873 /* DJRemotePlayerResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09EDEB321E5E06C00749873 /* DJRemotePlayerResourceLoaderDelegate.m */; };
+		F09EDEB721E5E0F200749873 /* DJAudioDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F09EDEB621E5E0F200749873 /* DJAudioDownloader.m */; };
+		F09EDEBA21E5E1B200749873 /* DJRemoteAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F09EDEB921E5E1B200749873 /* DJRemoteAudioFile.m */; };
+		F0B934FF21E4774E002A26AD /* DJRemotePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B934FE21E4774E002A26AD /* DJRemotePlayer.m */; };
+		F0B9350221E47A65002A26AD /* NSURL+DJStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B9350121E47A65002A26AD /* NSURL+DJStream.m */; };
+		F0B9350421E4881B002A26AD /* TestVC2.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0B9350321E4881B002A26AD /* TestVC2.xib */; };
+		FA665D03A433DA3F9FE941D4 /* libPods-DJFMPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC288CCB5A031AB12EB27FB /* libPods-DJFMPlayer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11A77E8E77446C261EFE55C4 /* Pods-DJFMPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayer/Pods-DJFMPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		22A27FA2FD1AF46912D90C52 /* libPods-DJFMPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJFMPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC288CCB5A031AB12EB27FB /* libPods-DJFMPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJFMPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4183ED082B251C54D5041F0A /* libPods-DJFMPlayerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJFMPlayerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6E037A248F571F3E618081 /* Pods-DJFMPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayer/Pods-DJFMPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		735EA808532BF87A47369521 /* Pods-DJFMPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayerUITests/Pods-DJFMPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D9C32F2672C2F1A5F761871 /* Pods-DJFMPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayerUITests/Pods-DJFMPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9EBEF63D688921FB0659E221 /* Pods-DJFMPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayerTests/Pods-DJFMPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6DC14C19D9DE275B4C8B533 /* Pods-DJFMPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayerTests/Pods-DJFMPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F08EB18721DC54B10077711B /* DJNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJNavigationController.h; sourceTree = "<group>"; };
+		F08EB18821DC54B10077711B /* DJNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJNavigationController.m; sourceTree = "<group>"; };
+		F08EB18A21DC55A30077711B /* DJNavBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJNavBar.h; sourceTree = "<group>"; };
+		F08EB18B21DC55A30077711B /* DJNavBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJNavBar.m; sourceTree = "<group>"; };
+		F08EB18D21DC5AD40077711B /* DJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTabBarController.h; sourceTree = "<group>"; };
+		F08EB18E21DC5AD40077711B /* DJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTabBarController.m; sourceTree = "<group>"; };
+		F08EB19221DC5C100077711B /* CALayer+DJPauseAimate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+DJPauseAimate.h"; sourceTree = "<group>"; };
+		F08EB19321DC5C100077711B /* CALayer+DJPauseAimate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+DJPauseAimate.m"; sourceTree = "<group>"; };
+		F08EB19521DC5C290077711B /* UIImage+DJImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+DJImage.h"; sourceTree = "<group>"; };
+		F08EB19621DC5C290077711B /* UIImage+DJImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DJImage.m"; sourceTree = "<group>"; };
+		F08EB19821DC5C410077711B /* UIView+DJLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+DJLayout.h"; sourceTree = "<group>"; };
+		F08EB19921DC5C410077711B /* UIView+DJLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+DJLayout.m"; sourceTree = "<group>"; };
+		F08EB19B21DC5CE20077711B /* DJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTabBar.h; sourceTree = "<group>"; };
+		F08EB19C21DC5CE20077711B /* DJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTabBar.m; sourceTree = "<group>"; };
+		F08EB19F21DC5EBD0077711B /* DJMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJMiddleView.h; sourceTree = "<group>"; };
+		F08EB1A021DC5EBD0077711B /* DJMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJMiddleView.m; sourceTree = "<group>"; };
+		F08EB1A221DC5ECC0077711B /* DJMiddleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJMiddleView.xib; sourceTree = "<group>"; };
+		F08EB1A421DC87530077711B /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F08EB1A521DC87530077711B /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F08EB1A721DC88630077711B /* TestVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		F08EB1A821DC88630077711B /* TestVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		F08EB1AC21DCB0EE0077711B /* DJFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJFileTool.h; sourceTree = "<group>"; };
+		F08EB1AD21DCB0EE0077711B /* DJFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJFileTool.m; sourceTree = "<group>"; };
+		F08EB1B221DCB3140077711B /* DJDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJDownloader.h; sourceTree = "<group>"; };
+		F08EB1B321DCB3140077711B /* DJDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJDownloader.m; sourceTree = "<group>"; };
+		F08EB1B521DDE2480077711B /* DJDownloaderManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJDownloaderManager.h; sourceTree = "<group>"; };
+		F08EB1B621DDE2480077711B /* DJDownloaderManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJDownloaderManager.m; sourceTree = "<group>"; };
+		F08EB1B821DDE6EF0077711B /* NSString+md5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+md5.h"; sourceTree = "<group>"; };
+		F08EB1B921DDE6EF0077711B /* NSString+md5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+md5.m"; sourceTree = "<group>"; };
 		F08F10F721B911DE00D5753E /* DJFMPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJFMPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08F10FA21B911DE00D5753E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F08F10FB21B911DE00D5753E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +113,17 @@
 		F08F111A21B911E100D5753E /* DJFMPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJFMPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08F111E21B911E100D5753E /* DJFMPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJFMPlayerUITests.m; sourceTree = "<group>"; };
 		F08F112021B911E100D5753E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09EDEB221E5E06C00749873 /* DJRemotePlayerResourceLoaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJRemotePlayerResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		F09EDEB321E5E06C00749873 /* DJRemotePlayerResourceLoaderDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJRemotePlayerResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		F09EDEB521E5E0F200749873 /* DJAudioDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAudioDownloader.h; sourceTree = "<group>"; };
+		F09EDEB621E5E0F200749873 /* DJAudioDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAudioDownloader.m; sourceTree = "<group>"; };
+		F09EDEB821E5E1B200749873 /* DJRemoteAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJRemoteAudioFile.h; sourceTree = "<group>"; };
+		F09EDEB921E5E1B200749873 /* DJRemoteAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJRemoteAudioFile.m; sourceTree = "<group>"; };
+		F0B934FD21E4774E002A26AD /* DJRemotePlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJRemotePlayer.h; sourceTree = "<group>"; };
+		F0B934FE21E4774E002A26AD /* DJRemotePlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJRemotePlayer.m; sourceTree = "<group>"; };
+		F0B9350021E47A65002A26AD /* NSURL+DJStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+DJStream.h"; sourceTree = "<group>"; };
+		F0B9350121E47A65002A26AD /* NSURL+DJStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DJStream.m"; sourceTree = "<group>"; };
+		F0B9350321E4881B002A26AD /* TestVC2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestVC2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA665D03A433DA3F9FE941D4 /* libPods-DJFMPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF054BAE52E3BD9AA5F7A18F /* libPods-DJFMPlayerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +147,163 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F09174BE8DA7DC456CB02D6D /* libPods-DJFMPlayerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		739E3EE202E67D019F59C131 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11A77E8E77446C261EFE55C4 /* Pods-DJFMPlayer.debug.xcconfig */,
+				4E6E037A248F571F3E618081 /* Pods-DJFMPlayer.release.xcconfig */,
+				9EBEF63D688921FB0659E221 /* Pods-DJFMPlayerTests.debug.xcconfig */,
+				B6DC14C19D9DE275B4C8B533 /* Pods-DJFMPlayerTests.release.xcconfig */,
+				735EA808532BF87A47369521 /* Pods-DJFMPlayerUITests.debug.xcconfig */,
+				9D9C32F2672C2F1A5F761871 /* Pods-DJFMPlayerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA823F43A5EDD7CB0251E1FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DC288CCB5A031AB12EB27FB /* libPods-DJFMPlayer.a */,
+				22A27FA2FD1AF46912D90C52 /* libPods-DJFMPlayerTests.a */,
+				4183ED082B251C54D5041F0A /* libPods-DJFMPlayerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F08EB18021DC51A30077711B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F08EB18121DC51A30077711B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB18321DC54530077711B /* MainModule */,
+				F08EB1A421DC87530077711B /* TestViewController.h */,
+				F08EB1A521DC87530077711B /* TestViewController.m */,
+				F08EB1A721DC88630077711B /* TestVC2.h */,
+				F08EB1A821DC88630077711B /* TestVC2.m */,
+				F0B9350321E4881B002A26AD /* TestVC2.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F08EB18221DC51A30077711B /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				F08F10FA21B911DE00D5753E /* AppDelegate.h */,
+				F08F10FB21B911DE00D5753E /* AppDelegate.m */,
+				F08F10FD21B911DE00D5753E /* ViewController.h */,
+				F08F10FE21B911DE00D5753E /* ViewController.m */,
+				F08F110021B911DE00D5753E /* Main.storyboard */,
+				F08F110321B911E100D5753E /* Assets.xcassets */,
+				F08F110521B911E100D5753E /* LaunchScreen.storyboard */,
+				F08F110821B911E100D5753E /* Info.plist */,
+				F08F110921B911E100D5753E /* main.m */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		F08EB18321DC54530077711B /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB18421DC54690077711B /* Controller */,
+				F08EB18521DC54750077711B /* View */,
+				F08EB18621DC547C0077711B /* Other */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		F08EB18421DC54690077711B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB18721DC54B10077711B /* DJNavigationController.h */,
+				F08EB18821DC54B10077711B /* DJNavigationController.m */,
+				F08EB18D21DC5AD40077711B /* DJTabBarController.h */,
+				F08EB18E21DC5AD40077711B /* DJTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F08EB18521DC54750077711B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB18A21DC55A30077711B /* DJNavBar.h */,
+				F08EB18B21DC55A30077711B /* DJNavBar.m */,
+				F08EB19B21DC5CE20077711B /* DJTabBar.h */,
+				F08EB19C21DC5CE20077711B /* DJTabBar.m */,
+				F08EB19F21DC5EBD0077711B /* DJMiddleView.h */,
+				F08EB1A021DC5EBD0077711B /* DJMiddleView.m */,
+				F08EB1A221DC5ECC0077711B /* DJMiddleView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F08EB18621DC547C0077711B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F0B934FC21E4766C002A26AD /* Player */,
+				F08EB1AA21DCB0AB0077711B /* DownLoader */,
+				F08EB19021DC5BAF0077711B /* BaseClasses */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F08EB19021DC5BAF0077711B /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB1AB21DCB0D70077711B /* Tools */,
+				F08EB19121DC5BBC0077711B /* Category */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		F08EB19121DC5BBC0077711B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB19221DC5C100077711B /* CALayer+DJPauseAimate.h */,
+				F08EB19321DC5C100077711B /* CALayer+DJPauseAimate.m */,
+				F08EB19521DC5C290077711B /* UIImage+DJImage.h */,
+				F08EB19621DC5C290077711B /* UIImage+DJImage.m */,
+				F08EB19821DC5C410077711B /* UIView+DJLayout.h */,
+				F08EB19921DC5C410077711B /* UIView+DJLayout.m */,
+				F08EB1B821DDE6EF0077711B /* NSString+md5.h */,
+				F08EB1B921DDE6EF0077711B /* NSString+md5.m */,
+				F0B9350021E47A65002A26AD /* NSURL+DJStream.h */,
+				F0B9350121E47A65002A26AD /* NSURL+DJStream.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F08EB1AA21DCB0AB0077711B /* DownLoader */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB1B221DCB3140077711B /* DJDownloader.h */,
+				F08EB1B321DCB3140077711B /* DJDownloader.m */,
+				F08EB1B521DDE2480077711B /* DJDownloaderManager.h */,
+				F08EB1B621DDE2480077711B /* DJDownloaderManager.m */,
+			);
+			path = DownLoader;
+			sourceTree = "<group>";
+		};
+		F08EB1AB21DCB0D70077711B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F08EB1AC21DCB0EE0077711B /* DJFileTool.h */,
+				F08EB1AD21DCB0EE0077711B /* DJFileTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		F08F10EE21B911DE00D5753E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +311,8 @@
 				F08F111221B911E100D5753E /* DJFMPlayerTests */,
 				F08F111D21B911E100D5753E /* DJFMPlayerUITests */,
 				F08F10F821B911DE00D5753E /* Products */,
+				739E3EE202E67D019F59C131 /* Pods */,
+				CA823F43A5EDD7CB0251E1FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +329,9 @@
 		F08F10F921B911DE00D5753E /* DJFMPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				F08F10FA21B911DE00D5753E /* AppDelegate.h */,
-				F08F10FB21B911DE00D5753E /* AppDelegate.m */,
-				F08F10FD21B911DE00D5753E /* ViewController.h */,
-				F08F10FE21B911DE00D5753E /* ViewController.m */,
-				F08F110021B911DE00D5753E /* Main.storyboard */,
-				F08F110321B911E100D5753E /* Assets.xcassets */,
-				F08F110521B911E100D5753E /* LaunchScreen.storyboard */,
-				F08F110821B911E100D5753E /* Info.plist */,
-				F08F110921B911E100D5753E /* main.m */,
+				F08EB18121DC51A30077711B /* Classes */,
+				F08EB18021DC51A30077711B /* Other */,
+				F08EB18221DC51A30077711B /* Systems */,
 			);
 			path = DJFMPlayer;
 			sourceTree = "<group>";
@@ -132,6 +354,21 @@
 			path = DJFMPlayerUITests;
 			sourceTree = "<group>";
 		};
+		F0B934FC21E4766C002A26AD /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F0B934FD21E4774E002A26AD /* DJRemotePlayer.h */,
+				F0B934FE21E4774E002A26AD /* DJRemotePlayer.m */,
+				F09EDEB221E5E06C00749873 /* DJRemotePlayerResourceLoaderDelegate.h */,
+				F09EDEB321E5E06C00749873 /* DJRemotePlayerResourceLoaderDelegate.m */,
+				F09EDEB521E5E0F200749873 /* DJAudioDownloader.h */,
+				F09EDEB621E5E0F200749873 /* DJAudioDownloader.m */,
+				F09EDEB821E5E1B200749873 /* DJRemoteAudioFile.h */,
+				F09EDEB921E5E1B200749873 /* DJRemoteAudioFile.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +376,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F08F112321B911E100D5753E /* Build configuration list for PBXNativeTarget "DJFMPlayer" */;
 			buildPhases = (
+				CE1310EC1B9A035A3F356754 /* [CP] Check Pods Manifest.lock */,
 				F08F10F321B911DE00D5753E /* Sources */,
 				F08F10F421B911DE00D5753E /* Frameworks */,
 				F08F10F521B911DE00D5753E /* Resources */,
@@ -156,6 +394,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F08F112621B911E100D5753E /* Build configuration list for PBXNativeTarget "DJFMPlayerTests" */;
 			buildPhases = (
+				88BB307F5223923F5D17463D /* [CP] Check Pods Manifest.lock */,
 				F08F110B21B911E100D5753E /* Sources */,
 				F08F110C21B911E100D5753E /* Frameworks */,
 				F08F110D21B911E100D5753E /* Resources */,
@@ -174,6 +413,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F08F112921B911E100D5753E /* Build configuration list for PBXNativeTarget "DJFMPlayerUITests" */;
 			buildPhases = (
+				056AC5174F1BC41CB7EF3EB0 /* [CP] Check Pods Manifest.lock */,
 				F08F111621B911E100D5753E /* Sources */,
 				F08F111721B911E100D5753E /* Frameworks */,
 				F08F111821B911E100D5753E /* Resources */,
@@ -236,8 +476,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F08F110721B911E100D5753E /* LaunchScreen.storyboard in Resources */,
+				F08EB1A321DC5ECD0077711B /* DJMiddleView.xib in Resources */,
 				F08F110421B911E100D5753E /* Assets.xcassets in Resources */,
 				F08F110221B911DE00D5753E /* Main.storyboard in Resources */,
+				F0B9350421E4881B002A26AD /* TestVC2.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +499,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		056AC5174F1BC41CB7EF3EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJFMPlayerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88BB307F5223923F5D17463D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJFMPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1310EC1B9A035A3F356754 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJFMPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F08F10F321B911DE00D5753E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08EB18C21DC55A30077711B /* DJNavBar.m in Sources */,
+				F08EB1A121DC5EBD0077711B /* DJMiddleView.m in Sources */,
+				F08EB1A921DC88630077711B /* TestVC2.m in Sources */,
+				F08EB19721DC5C290077711B /* UIImage+DJImage.m in Sources */,
 				F08F10FF21B911DE00D5753E /* ViewController.m in Sources */,
 				F08F110A21B911E100D5753E /* main.m in Sources */,
+				F08EB18F21DC5AD40077711B /* DJTabBarController.m in Sources */,
+				F08EB1A621DC87530077711B /* TestViewController.m in Sources */,
+				F08EB1B721DDE2480077711B /* DJDownloaderManager.m in Sources */,
+				F08EB1AE21DCB0EE0077711B /* DJFileTool.m in Sources */,
+				F0B9350221E47A65002A26AD /* NSURL+DJStream.m in Sources */,
+				F08EB19D21DC5CE20077711B /* DJTabBar.m in Sources */,
+				F08EB1B421DCB3140077711B /* DJDownloader.m in Sources */,
+				F0B934FF21E4774E002A26AD /* DJRemotePlayer.m in Sources */,
+				F09EDEB421E5E06C00749873 /* DJRemotePlayerResourceLoaderDelegate.m in Sources */,
+				F08EB1BA21DDE6EF0077711B /* NSString+md5.m in Sources */,
+				F08EB19421DC5C100077711B /* CALayer+DJPauseAimate.m in Sources */,
+				F08EB18921DC54B10077711B /* DJNavigationController.m in Sources */,
+				F09EDEBA21E5E1B200749873 /* DJRemoteAudioFile.m in Sources */,
+				F08EB19A21DC5C410077711B /* UIView+DJLayout.m in Sources */,
+				F09EDEB721E5E0F200749873 /* DJAudioDownloader.m in Sources */,
 				F08F10FC21B911DE00D5753E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,11 +763,12 @@
 		};
 		F08F112421B911E100D5753E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A77E8E77446C261EFE55C4 /* Pods-DJFMPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EUJ6KJ8TMF;
-				INFOPLIST_FILE = DJFMPlayer/Info.plist;
+				INFOPLIST_FILE = DJFMPlayer/Systems/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +781,12 @@
 		};
 		F08F112521B911E100D5753E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6E037A248F571F3E618081 /* Pods-DJFMPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EUJ6KJ8TMF;
-				INFOPLIST_FILE = DJFMPlayer/Info.plist;
+				INFOPLIST_FILE = DJFMPlayer/Systems/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +799,7 @@
 		};
 		F08F112721B911E100D5753E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBEF63D688921FB0659E221 /* Pods-DJFMPlayerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +819,7 @@
 		};
 		F08F112821B911E100D5753E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DC14C19D9DE275B4C8B533 /* Pods-DJFMPlayerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +839,7 @@
 		};
 		F08F112A21B911E100D5753E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735EA808532BF87A47369521 /* Pods-DJFMPlayerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EUJ6KJ8TMF;
@@ -523,6 +858,7 @@
 		};
 		F08F112B21B911E100D5753E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9C32F2672C2F1A5F761871 /* Pods-DJFMPlayerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EUJ6KJ8TMF;
