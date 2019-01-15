@@ -11,11 +11,13 @@ target 'DJFMPlayer' do
   target 'DJFMPlayerTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Realm', '~> 3.1.0'
   end
 
   target 'DJFMPlayerUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Realm', '~> 3.1.0'
   end
 
 end

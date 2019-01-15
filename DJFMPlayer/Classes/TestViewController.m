@@ -11,6 +11,7 @@
 #import "DJDownloader.h"
 #import "DJDownloaderManager.h"
 
+#import "SegmentMainVC.h"
 @interface TestViewController ()
 
 @property (retain, nonatomic)DJDownloader *downLoader;
@@ -59,7 +60,7 @@
 //    UIImage *image = [UIImage imageNamed:@"zxy_icon"];
 //    [[NSNotificationCenter defaultCenter] postNotificationName:@"playImage" object:image];
 //    //
-    [self.navigationController pushViewController:[TestVC2 new] animated:YES];
+    [self.navigationController pushViewController:[SegmentMainVC new] animated:YES];
     
     NSURL *url = [NSURL URLWithString:@"http://macdown.xpgod.com:801/postermac.dmg"];
 //    [self.downLoader downLoader:url];
