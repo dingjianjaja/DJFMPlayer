@@ -40,7 +40,7 @@
     [self.segmentBarVC setUpWithItems:@[@"专辑", @"声音", @"下载中",@"shi",@"COO"] childVCs:@[vc1, vc2, vc3,vc4,vc5]];
     
     [self.segmentBarVC.segmentBar updateWithConfig:^(DJSegmentBarConfig *config) {
-        config.segmentBarBackColor = [UIColor whiteColor];
+        
     }];
 }
 

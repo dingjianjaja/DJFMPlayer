@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//  DJFMPlayer
+//
+//  Created by dingjianjaja on 2019/1/18.
+//  Copyright © 2019 dingjianjaja. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define singtonInterface  + (instancetype)shareInstance;
+
+#define singtonImplement(class) \
+\
+static class *_shareInstance; \
+\
++ (instancetype)shareInstance { \
+\
+if(_shareInstance == nil) {\
+_shareInstance = [[class alloc] init]; \
+} \
+return _shareInstance; \
+} \
+\
++(instancetype)allocWithZone:(struct _NSZone *)zone { \
+\
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_shareInstance = [super allocWithZone:zone]; \
+}); \
+\
+return _shareInstance; \
+\
+}
+
+
+
+#import "DJConst.h"
+#import "Base.h"
+#import "MJExtension.h"
+#import "DJSessionManager.h"
+
+#endif /* PrefixHeader_pch */
