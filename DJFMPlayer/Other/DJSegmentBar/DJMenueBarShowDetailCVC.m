@@ -40,12 +40,20 @@ static NSString * const reuseIdentifier = @"menue";
     [super viewDidLoad];
     
     NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-    UINib *nib = [UINib nibWithNibName:@"XMGMenueCell" bundle:currentBundle];
+    UINib *nib = [UINib nibWithNibName:@"DJMenueCell" bundle:currentBundle];
     [self.collectionView registerNib:nib forCellWithReuseIdentifier:reuseIdentifier];
     self.collectionView.backgroundColor = [UIColor whiteColor];
 }
 
-
+#pragma mark - setter
+- (void)setItems:(NSArray<id<DJSegmentModelProtocol>> *)items{
+    _items = items;
+    NSInteger rows = (_items.count + (kRowCount - 1)) / kRowCount;
+    CGFloat height = rows * (kCellH + kMargin);
+    self.collectionView.height = height;
+    self.expectedHeight = height;
+    [self.collectionView reloadData];
+}
 
 
 

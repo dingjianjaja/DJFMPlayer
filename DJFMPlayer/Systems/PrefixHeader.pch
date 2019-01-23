@@ -40,5 +40,7 @@ return _shareInstance; \
 #import "Base.h"
 #import "MJExtension.h"
 #import "DJSessionManager.h"
+#import "UIImageView+WebCache.h"
+#import "UIView+DJLayout.h"
 
 #endif /* PrefixHeader_pch */

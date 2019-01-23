@@ -30,11 +30,11 @@
     [super viewDidLoad];
     
     /** 设置手势代理 */
-    UIGestureRecognizer *gester = self.interactivePopGestureRecognizer;
-    UIPanGestureRecognizer *panGester = [[UIPanGestureRecognizer alloc] initWithTarget:gester.delegate action:NSSelectorFromString(@"handleNavigationTransition:")];
-    [gester.view addGestureRecognizer:panGester];
-    gester.delaysTouchesBegan = YES;
-    panGester.delegate = self;
+//    UIGestureRecognizer *gester = self.interactivePopGestureRecognizer;
+//    UIPanGestureRecognizer *panGester = [[UIPanGestureRecognizer alloc] initWithTarget:gester.delegate action:NSSelectorFromString(@"handleNavigationTransition:")];
+//    [gester.view addGestureRecognizer:panGester];
+//    gester.delaysTouchesBegan = YES;
+//    panGester.delegate = self;
 }
 
 

@@ -75,7 +75,6 @@
     // 指示器颜色
     self.indicatorView.backgroundColor = segmentConfig.indicatorColor;
     self.indicatorView.height = segmentConfig.indicatorHeight;
-    
     // 选项颜色/字体
     for (UIButton *btn in self.segBtns) {
         [btn setTitleColor:segmentConfig.segNormalColor forState:UIControlStateNormal];
@@ -91,9 +90,6 @@
     [self layoutIfNeeded];
     [self layoutSubviews];
 }
-
-
-
 
 
 - (void)setSelectIndex:(NSInteger)selectIndex{
@@ -154,7 +150,6 @@
     [self layoutIfNeeded];
     [self layoutSubviews];
     
-    
     // 默认选中第一个选项卡
     [self segClick:[self.segBtns firstObject]];
     
@@ -205,7 +200,6 @@
 
 
 - (void)showDetailPane {
-    
     self.showMoreBtn.selected = YES;
     self.showDetailVC.collectionView.hidden = NO;
     self.coverView.hidden = NO;

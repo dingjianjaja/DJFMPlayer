@@ -10,6 +10,8 @@
 #import "DJTabBarController.h"
 #import "DJNavigationController.h"
 #import "TestViewController.h"
+#import "DJHomeViewController.h"
+#import "DJDownloaderMainVC.h"
 #import "DJTabBar.h"
 
 @interface AppDelegate ()
@@ -22,9 +24,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     DJTabBarController *rootVC = [DJTabBarController tabBarControllerWithAddChildVCsBlock:^(DJTabBarController * _Nonnull tabBarC) {
-        [tabBarC addChildVC:[TestViewController new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
+        [tabBarC addChildVC:[DJHomeViewController new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
         [tabBarC addChildVC:[UIViewController new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
-        [tabBarC addChildVC:[UIViewController new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
+        [tabBarC addChildVC:[DJDownloaderMainVC new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
         [tabBarC addChildVC:[UIViewController new] normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
         
     }];

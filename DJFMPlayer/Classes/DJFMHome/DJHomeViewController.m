@@ -7,7 +7,6 @@
 //
 
 #import "DJHomeViewController.h"
-#import "DJSegmentBarVC.h"
 #import "DJSegmentBar.h"
 #import "DJFMHomeDataTool.h"
 #import "DJRecommendTVC.h"
@@ -73,9 +72,7 @@
     self.segmentBar.segmentMs = segMs;
     // 1. 设置菜单栏
     [self.view addSubview:self.segmentBar];
-    [self.segmentBar updateWithConfig:^(DJSegmentBarConfig * _Nonnull config) {
-        config.isShowMore = YES;
-    }];
+    
     // 2. 设置代理
     self.segmentBar.delegate = self;
     
@@ -110,6 +107,9 @@
         _segmentBar.backgroundColor = [UIColor yellowColor];
         _segmentBar.frame = self.segBarFrame;
         _segmentBar = segmentBar;
+        [_segmentBar updateWithConfig:^(DJSegmentBarConfig * _Nonnull config) {
+            
+        }];
         [self.view addSubview:_segmentBar];
     }
     return _segmentBar;

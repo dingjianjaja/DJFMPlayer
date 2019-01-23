@@ -9,5 +9,11 @@
 #import "DJCategoryModel.h"
 
 @implementation DJCategoryModel
+- (NSInteger)segID {
+    return -1;
+}
 
+- (NSString *)segContent {
+    return _name;
+}
 @end

@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AF054BAE52E3BD9AA5F7A18F /* libPods-DJFMPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A27FA2FD1AF46912D90C52 /* libPods-DJFMPlayerTests.a */; };
+		F03FF2A421F84866000DEA43 /* DJAdLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2A321F84866000DEA43 /* DJAdLoopView.m */; };
+		F03FF2A721F84B0C000DEA43 /* DJMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2A621F84B0C000DEA43 /* DJMenuView.m */; };
+		F03FF2AB21F85B43000DEA43 /* DJUpDownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2AA21F85B43000DEA43 /* DJUpDownBtn.m */; };
+		F03FF2AE21F85E1A000DEA43 /* DJRecommendDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2AD21F85E1A000DEA43 /* DJRecommendDataTool.m */; };
+		F03FF2B121F85EC9000DEA43 /* DJMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2B021F85EC9000DEA43 /* DJMenuModel.m */; };
+		F03FF2B421F85FDC000DEA43 /* DJAdPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2B321F85FDC000DEA43 /* DJAdPicModel.m */; };
+		F03FF2B721F8619E000DEA43 /* DJFocusImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2B621F8619E000DEA43 /* DJFocusImageModel.m */; };
+		F03FF2BA21F8627E000DEA43 /* DJLiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2B921F8627E000DEA43 /* DJLiveModel.m */; };
+		F03FF2BD21F86298000DEA43 /* DJTuiguangModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2BC21F86298000DEA43 /* DJTuiguangModel.m */; };
+		F03FF2C021F862A4000DEA43 /* DJClassItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F03FF2BF21F862A4000DEA43 /* DJClassItemModel.m */; };
 		F040283E21EEC44000AA49D1 /* DJDownloaderMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F040283D21EEC44000AA49D1 /* DJDownloaderMainVC.m */; };
 		F040284121EEC47B00AA49D1 /* DJDownloadBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F040284021EEC47B00AA49D1 /* DJDownloadBaseVC.m */; };
 		F040284421EEC49F00AA49D1 /* DJDownloadAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F040284321EEC49F00AA49D1 /* DJDownloadAlbumVC.m */; };
@@ -70,7 +80,6 @@
 		F040290121EF057000AA49D1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F04028F521EF057000AA49D1 /* LICENSE */; };
 		F040290221EF057000AA49D1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F04028F621EF057000AA49D1 /* README.md */; };
 		F040290521EF05FD00AA49D1 /* DJSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F040290421EF05FD00AA49D1 /* DJSessionManager.m */; };
-		F040A27A21EDB972009CED54 /* DJSegmentBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F040A27921EDB972009CED54 /* DJSegmentBarVC.m */; };
 		F040A27D21EDB9C9009CED54 /* DJSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F040A27C21EDB9C9009CED54 /* DJSegmentBar.m */; };
 		F040A28021EDBD7A009CED54 /* DJSegmentBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F040A27F21EDBD7A009CED54 /* DJSegmentBarConfig.m */; };
 		F040A28321EDC0F2009CED54 /* UIView+DJSegmentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F040A28221EDC0F2009CED54 /* UIView+DJSegmentBar.m */; };
@@ -149,6 +158,28 @@
 		9D9C32F2672C2F1A5F761871 /* Pods-DJFMPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayerUITests/Pods-DJFMPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9EBEF63D688921FB0659E221 /* Pods-DJFMPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayerTests/Pods-DJFMPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6DC14C19D9DE275B4C8B533 /* Pods-DJFMPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJFMPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJFMPlayerTests/Pods-DJFMPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F03FF2A121F84865000DEA43 /* DJAdLoopProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAdLoopProtocol.h; sourceTree = "<group>"; };
+		F03FF2A221F84866000DEA43 /* DJAdLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJAdLoopView.h; sourceTree = "<group>"; };
+		F03FF2A321F84866000DEA43 /* DJAdLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJAdLoopView.m; sourceTree = "<group>"; };
+		F03FF2A521F84B0C000DEA43 /* DJMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJMenuView.h; sourceTree = "<group>"; };
+		F03FF2A621F84B0C000DEA43 /* DJMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJMenuView.m; sourceTree = "<group>"; };
+		F03FF2A821F85A6F000DEA43 /* DJMenuModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJMenuModelProtocol.h; sourceTree = "<group>"; };
+		F03FF2A921F85B43000DEA43 /* DJUpDownBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJUpDownBtn.h; sourceTree = "<group>"; };
+		F03FF2AA21F85B43000DEA43 /* DJUpDownBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJUpDownBtn.m; sourceTree = "<group>"; };
+		F03FF2AC21F85E1A000DEA43 /* DJRecommendDataTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJRecommendDataTool.h; sourceTree = "<group>"; };
+		F03FF2AD21F85E1A000DEA43 /* DJRecommendDataTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJRecommendDataTool.m; sourceTree = "<group>"; };
+		F03FF2AF21F85EC9000DEA43 /* DJMenuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJMenuModel.h; sourceTree = "<group>"; };
+		F03FF2B021F85EC9000DEA43 /* DJMenuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJMenuModel.m; sourceTree = "<group>"; };
+		F03FF2B221F85FDC000DEA43 /* DJAdPicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJAdPicModel.h; sourceTree = "<group>"; };
+		F03FF2B321F85FDC000DEA43 /* DJAdPicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJAdPicModel.m; sourceTree = "<group>"; };
+		F03FF2B521F8619E000DEA43 /* DJFocusImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJFocusImageModel.h; sourceTree = "<group>"; };
+		F03FF2B621F8619E000DEA43 /* DJFocusImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJFocusImageModel.m; sourceTree = "<group>"; };
+		F03FF2B821F8627E000DEA43 /* DJLiveModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJLiveModel.h; sourceTree = "<group>"; };
+		F03FF2B921F8627E000DEA43 /* DJLiveModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLiveModel.m; sourceTree = "<group>"; };
+		F03FF2BB21F86298000DEA43 /* DJTuiguangModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJTuiguangModel.h; sourceTree = "<group>"; };
+		F03FF2BC21F86298000DEA43 /* DJTuiguangModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJTuiguangModel.m; sourceTree = "<group>"; };
+		F03FF2BE21F862A4000DEA43 /* DJClassItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJClassItemModel.h; sourceTree = "<group>"; };
+		F03FF2BF21F862A4000DEA43 /* DJClassItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJClassItemModel.m; sourceTree = "<group>"; };
 		F040283C21EEC44000AA49D1 /* DJDownloaderMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJDownloaderMainVC.h; sourceTree = "<group>"; };
 		F040283D21EEC44000AA49D1 /* DJDownloaderMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJDownloaderMainVC.m; sourceTree = "<group>"; };
 		F040283F21EEC47B00AA49D1 /* DJDownloadBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJDownloadBaseVC.h; sourceTree = "<group>"; };
@@ -270,8 +301,6 @@
 		F04028F621EF057000AA49D1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F040290321EF05FD00AA49D1 /* DJSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSessionManager.h; sourceTree = "<group>"; };
 		F040290421EF05FD00AA49D1 /* DJSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSessionManager.m; sourceTree = "<group>"; };
-		F040A27821EDB972009CED54 /* DJSegmentBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSegmentBarVC.h; sourceTree = "<group>"; };
-		F040A27921EDB972009CED54 /* DJSegmentBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSegmentBarVC.m; sourceTree = "<group>"; };
 		F040A27B21EDB9C9009CED54 /* DJSegmentBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSegmentBar.h; sourceTree = "<group>"; };
 		F040A27C21EDB9C9009CED54 /* DJSegmentBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJSegmentBar.m; sourceTree = "<group>"; };
 		F040A27E21EDBD7A009CED54 /* DJSegmentBarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJSegmentBarConfig.h; sourceTree = "<group>"; };
@@ -417,6 +446,96 @@
 				4183ED082B251C54D5041F0A /* libPods-DJFMPlayerUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F03FF28F21F84078000DEA43 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				F0413D2E21F1AAE1002A5CD7 /* DJRecommendTVC.h */,
+				F0413D2F21F1AAE1002A5CD7 /* DJRecommendTVC.m */,
+				F03FF29521F84357000DEA43 /* Model */,
+				F03FF29421F8434F000DEA43 /* View */,
+				F03FF2AC21F85E1A000DEA43 /* DJRecommendDataTool.h */,
+				F03FF2AD21F85E1A000DEA43 /* DJRecommendDataTool.m */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		F03FF29021F8408A000DEA43 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				F0413D3121F1ABF0002A5CD7 /* DJClassificationTVC.h */,
+				F0413D3221F1ABF0002A5CD7 /* DJClassificationTVC.m */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		F03FF29121F8408F000DEA43 /* 广播 */ = {
+			isa = PBXGroup;
+			children = (
+				F0413D3421F1AC0C002A5CD7 /* DJRadioBroadcaseTVC.h */,
+				F0413D3521F1AC0C002A5CD7 /* DJRadioBroadcaseTVC.m */,
+			);
+			path = "广播";
+			sourceTree = "<group>";
+		};
+		F03FF29221F84094000DEA43 /* 榜单 */ = {
+			isa = PBXGroup;
+			children = (
+				F0413D3721F1AC2A002A5CD7 /* DJBillBoardTVC.h */,
+				F0413D3821F1AC2A002A5CD7 /* DJBillBoardTVC.m */,
+			);
+			path = "榜单";
+			sourceTree = "<group>";
+		};
+		F03FF29321F8409B000DEA43 /* 主播 */ = {
+			isa = PBXGroup;
+			children = (
+				F0413D3A21F1AC3A002A5CD7 /* DJFMAnchorTVC.h */,
+				F0413D3B21F1AC3A002A5CD7 /* DJFMAnchorTVC.m */,
+			);
+			path = "主播";
+			sourceTree = "<group>";
+		};
+		F03FF29421F8434F000DEA43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F03FF2A521F84B0C000DEA43 /* DJMenuView.h */,
+				F03FF2A621F84B0C000DEA43 /* DJMenuView.m */,
+				F03FF2A821F85A6F000DEA43 /* DJMenuModelProtocol.h */,
+				F03FF2A921F85B43000DEA43 /* DJUpDownBtn.h */,
+				F03FF2AA21F85B43000DEA43 /* DJUpDownBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F03FF29521F84357000DEA43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F03FF2AF21F85EC9000DEA43 /* DJMenuModel.h */,
+				F03FF2B021F85EC9000DEA43 /* DJMenuModel.m */,
+				F03FF2B221F85FDC000DEA43 /* DJAdPicModel.h */,
+				F03FF2B321F85FDC000DEA43 /* DJAdPicModel.m */,
+				F03FF2B521F8619E000DEA43 /* DJFocusImageModel.h */,
+				F03FF2B621F8619E000DEA43 /* DJFocusImageModel.m */,
+				F03FF2B821F8627E000DEA43 /* DJLiveModel.h */,
+				F03FF2B921F8627E000DEA43 /* DJLiveModel.m */,
+				F03FF2BB21F86298000DEA43 /* DJTuiguangModel.h */,
+				F03FF2BC21F86298000DEA43 /* DJTuiguangModel.m */,
+				F03FF2BE21F862A4000DEA43 /* DJClassItemModel.h */,
+				F03FF2BF21F862A4000DEA43 /* DJClassItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F03FF29921F84454000DEA43 /* DJAdLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				F03FF2A121F84865000DEA43 /* DJAdLoopProtocol.h */,
+				F03FF2A221F84866000DEA43 /* DJAdLoopView.h */,
+				F03FF2A321F84866000DEA43 /* DJAdLoopView.m */,
+			);
+			path = DJAdLoopView;
 			sourceTree = "<group>";
 		};
 		F040283B21EEC3CC00AA49D1 /* DJDownloaderListen */ = {
@@ -651,8 +770,6 @@
 		F040A27721EDB93E009CED54 /* DJSegmentBar */ = {
 			isa = PBXGroup;
 			children = (
-				F040A27821EDB972009CED54 /* DJSegmentBarVC.h */,
-				F040A27921EDB972009CED54 /* DJSegmentBarVC.m */,
 				F040A27B21EDB9C9009CED54 /* DJSegmentBar.h */,
 				F040A27C21EDB9C9009CED54 /* DJSegmentBar.m */,
 				F040A27E21EDBD7A009CED54 /* DJSegmentBarConfig.h */,
@@ -676,21 +793,16 @@
 		F0413D1821F19C9C002A5CD7 /* DJFMHome */ = {
 			isa = PBXGroup;
 			children = (
+				F03FF28F21F84078000DEA43 /* 推荐 */,
+				F03FF29021F8408A000DEA43 /* 分类 */,
+				F03FF29121F8408F000DEA43 /* 广播 */,
+				F03FF29221F84094000DEA43 /* 榜单 */,
+				F03FF29321F8409B000DEA43 /* 主播 */,
 				F0413D3E21F1AF40002A5CD7 /* Model */,
 				F0413D1921F19CD7002A5CD7 /* DJHomeViewController.h */,
 				F0413D1A21F19CD7002A5CD7 /* DJHomeViewController.m */,
 				F0413D2A21F1A3BA002A5CD7 /* DJFMHomeDataTool.h */,
 				F0413D2B21F1A3BA002A5CD7 /* DJFMHomeDataTool.m */,
-				F0413D2E21F1AAE1002A5CD7 /* DJRecommendTVC.h */,
-				F0413D2F21F1AAE1002A5CD7 /* DJRecommendTVC.m */,
-				F0413D3121F1ABF0002A5CD7 /* DJClassificationTVC.h */,
-				F0413D3221F1ABF0002A5CD7 /* DJClassificationTVC.m */,
-				F0413D3421F1AC0C002A5CD7 /* DJRadioBroadcaseTVC.h */,
-				F0413D3521F1AC0C002A5CD7 /* DJRadioBroadcaseTVC.m */,
-				F0413D3721F1AC2A002A5CD7 /* DJBillBoardTVC.h */,
-				F0413D3821F1AC2A002A5CD7 /* DJBillBoardTVC.m */,
-				F0413D3A21F1AC3A002A5CD7 /* DJFMAnchorTVC.h */,
-				F0413D3B21F1AC3A002A5CD7 /* DJFMAnchorTVC.m */,
 			);
 			path = DJFMHome;
 			sourceTree = "<group>";
@@ -724,6 +836,7 @@
 		F08EB18021DC51A30077711B /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				F03FF29921F84454000DEA43 /* DJAdLoopView */,
 				F040286C21EF053300AA49D1 /* Lib */,
 				F040286B21EF01B400AA49D1 /* NetWork */,
 				F040A27721EDB93E009CED54 /* DJSegmentBar */,
@@ -1142,11 +1255,13 @@
 				F08EB18C21DC55A30077711B /* DJNavBar.m in Sources */,
 				F0413D4721F1BAA4002A5CD7 /* NSString+SegmentModelProtocol.m in Sources */,
 				F040289B21EF055200AA49D1 /* UIWebView+AFNetworking.m in Sources */,
+				F03FF2BD21F86298000DEA43 /* DJTuiguangModel.m in Sources */,
 				F040A28621EDCB49009CED54 /* SegmentMainVC.m in Sources */,
 				F040289621EF055200AA49D1 /* UIRefreshControl+AFNetworking.m in Sources */,
 				F08EB1A121DC5EBD0077711B /* DJMiddleView.m in Sources */,
 				F04028DD21EF056600AA49D1 /* UIButton+WebCache.m in Sources */,
 				F04028F921EF057000AA49D1 /* MJProperty.m in Sources */,
+				F03FF2BA21F8627E000DEA43 /* DJLiveModel.m in Sources */,
 				F08EB1A921DC88630077711B /* TestVC2.m in Sources */,
 				F04028D521EF056600AA49D1 /* SDImageCache.m in Sources */,
 				F0413D2C21F1A3BA002A5CD7 /* DJFMHomeDataTool.m in Sources */,
@@ -1160,14 +1275,15 @@
 				F04028A121EF055200AA49D1 /* AFURLRequestSerialization.m in Sources */,
 				F040289D21EF055200AA49D1 /* AFImageDownloader.m in Sources */,
 				F04028A221EF055200AA49D1 /* AFNetworkReachabilityManager.m in Sources */,
+				F03FF2AB21F85B43000DEA43 /* DJUpDownBtn.m in Sources */,
 				F08F10FF21B911DE00D5753E /* ViewController.m in Sources */,
 				F040283E21EEC44000AA49D1 /* DJDownloaderMainVC.m in Sources */,
 				F0413D3321F1ABF0002A5CD7 /* DJClassificationTVC.m in Sources */,
 				F040289921EF055200AA49D1 /* UIButton+AFNetworking.m in Sources */,
 				F040290021EF057000AA49D1 /* MJFoundation.m in Sources */,
 				F040CDA621F6E8D30098C095 /* DJSegmentRightLeftBtn.m in Sources */,
-				F040A27A21EDB972009CED54 /* DJSegmentBarVC.m in Sources */,
 				F040289A21EF055200AA49D1 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				F03FF2B421F85FDC000DEA43 /* DJAdPicModel.m in Sources */,
 				F040A28021EDBD7A009CED54 /* DJSegmentBarConfig.m in Sources */,
 				F08F110A21B911E100D5753E /* main.m in Sources */,
 				F040284721EEC4CE00AA49D1 /* DJDownloadVoiceVC.m in Sources */,
@@ -1185,6 +1301,7 @@
 				F04028CE21EF056600AA49D1 /* SDWebImageDecoder.m in Sources */,
 				F040289821EF055200AA49D1 /* UIImageView+AFNetworking.m in Sources */,
 				F04028A021EF055200AA49D1 /* AFURLSessionManager.m in Sources */,
+				F03FF2B121F85EC9000DEA43 /* DJMenuModel.m in Sources */,
 				F04028F721EF057000AA49D1 /* MJPropertyType.m in Sources */,
 				F08EB1AE21DCB0EE0077711B /* DJFileTool.m in Sources */,
 				F0B9350221E47A65002A26AD /* NSURL+DJStream.m in Sources */,
@@ -1193,8 +1310,10 @@
 				F0413D3921F1AC2A002A5CD7 /* DJBillBoardTVC.m in Sources */,
 				F08EB19D21DC5CE20077711B /* DJTabBar.m in Sources */,
 				F040290521EF05FD00AA49D1 /* DJSessionManager.m in Sources */,
+				F03FF2C021F862A4000DEA43 /* DJClassItemModel.m in Sources */,
 				F040286721EEFCB800AA49D1 /* DJCategoryModel.m in Sources */,
 				F08EB1B421DCB3140077711B /* DJDownloader.m in Sources */,
+				F03FF2B721F8619E000DEA43 /* DJFocusImageModel.m in Sources */,
 				F04028FB21EF057000AA49D1 /* MJExtensionConst.m in Sources */,
 				F0413D3021F1AAE1002A5CD7 /* DJRecommendTVC.m in Sources */,
 				F04028D321EF056600AA49D1 /* SDWebImageCompat.m in Sources */,
@@ -1216,8 +1335,10 @@
 				F04028FD21EF057000AA49D1 /* NSObject+MJClass.m in Sources */,
 				F09EDEBA21E5E1B200749873 /* DJRemoteAudioFile.m in Sources */,
 				F04028D221EF056600AA49D1 /* UIImage+MultiFormat.m in Sources */,
+				F03FF2A721F84B0C000DEA43 /* DJMenuView.m in Sources */,
 				F04028DC21EF056600AA49D1 /* UIView+WebCache.m in Sources */,
 				F0413D2821F1A257002A5CD7 /* DJConst.m in Sources */,
+				F03FF2AE21F85E1A000DEA43 /* DJRecommendDataTool.m in Sources */,
 				F040289F21EF055200AA49D1 /* AFHTTPSessionManager.m in Sources */,
 				F040A28321EDC0F2009CED54 /* UIView+DJSegmentBar.m in Sources */,
 				F040284421EEC49F00AA49D1 /* DJDownloadAlbumVC.m in Sources */,
@@ -1229,6 +1350,7 @@
 				F09EDEB721E5E0F200749873 /* DJAudioDownloader.m in Sources */,
 				F040289E21EF055200AA49D1 /* AFURLResponseSerialization.m in Sources */,
 				F04028D621EF056600AA49D1 /* SDWebImageDownloaderOperation.m in Sources */,
+				F03FF2A421F84866000DEA43 /* DJAdLoopView.m in Sources */,
 				F08F10FC21B911DE00D5753E /* AppDelegate.m in Sources */,
 				F04028D421EF056600AA49D1 /* SDWebImagePrefetcher.m in Sources */,
 			);
